@@ -1,5 +1,7 @@
 # Proyecto - Java Adapter y Facade en Manufactura Automotriz
 
+![Línea de producción automotriz](https://upload.wikimedia.org/wikipedia/commons/f/f1/Hyundai_car_assembly_line.jpg)
+
 ## Requisitos del Ejercicio
 
 Diseña e implementa los patrones de diseño **Adapter** y **Facade** en el dominio de la **manufactura automotriz**.
