@@ -165,25 +165,25 @@ Para mejores resultados sigue estos pasos:
 ```
 === SISTEMA DE MANUFACTURA AUTOMOTRIZ ===
 
---- PATRÓN ADAPTADOR: Robot ABB ---
-[LineaDeProduccion] Línea: Ensamble Norte | Tarea: Soldadura de chasis
+--- PATRON ADAPTADOR: Robot ABB ---
+[LineaDeProduccion] Linea: Ensamble Norte | Tarea: Soldadura de chasis
 [RobotABBAdapter] Traduciendo solicitud al sistema legacy ABB...
 [RobotLegacyABB] performTask ejecutado: Soldadura de chasis
 [LineaDeProduccion] Estado: OPERATIVO | Eficiencia: 0.87
 
---- PATRÓN ADAPTADOR: Robot FANUC ---
-[LineaDeProduccion] Línea: Ensamble Sur | Tarea: Pintado de carrocería
+--- PATRON ADAPTADOR: Robot FANUC ---
+[LineaDeProduccion] Linea: Ensamble Sur | Tarea: Pintado de carroceria
 [RobotFANUCAdapter] Traduciendo solicitud al sistema legacy FANUC...
-[RobotLegacyFANUC] activate ejecutado: Pintado de carrocería
+[RobotLegacyFANUC] activate ejecutado: Pintado de carroceria
 [LineaDeProduccion] Estado: OPERATIVO | Eficiencia: 0.92
 
---- PATRÓN FACHADA ---
+--- PATRON FACHADA ---
 [EnsambladorVehiculo] Iniciando ensamble...
   [SistemaSoldadura] Chasis soldado correctamente
   [SistemaMotor] Motor V6 instalado
-  [SistemaElectrico] Cableado eléctrico completado
+  [SistemaElectrico] Cableado electrico completado
 [EnsambladorVehiculo] Finalizando ensamble...
-  [ControlCalidad] Inspeccionando vehículo...
+  [ControlCalidad] Inspeccionando vehiculo...
   [ControlCalidad] Aprobado: todos los sistemas OK
 [EnsambladorVehiculo] Reporte: Vehículo VIN-2026-0307 aprobado - todos los sistemas OK
 ```
