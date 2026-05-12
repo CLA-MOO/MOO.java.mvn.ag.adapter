@@ -185,7 +185,7 @@ Para mejores resultados sigue estos pasos:
 [EnsambladorVehiculo] Finalizando ensamble...
   [ControlCalidad] Inspeccionando vehiculo...
   [ControlCalidad] Aprobado: todos los sistemas OK
-[EnsambladorVehiculo] Reporte: Vehículo VIN-2026-0307 aprobado - todos los sistemas OK
+[EnsambladorVehiculo] Reporte: Vehiculo VIN-2026-0307 aprobado - todos los sistemas OK
 ```
 
 ## Versión de Java
